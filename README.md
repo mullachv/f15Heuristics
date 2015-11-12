@@ -1,4 +1,5 @@
-1. Use HTML5, Javascript
+1. Your games will eventually be placed at [Dr Ecco web site](http://cims.nyu.edu/drecco/index.php?task=homepage "Dr Ecco web site")
+2. Use HTML5, Javascript
 2. Contain your game HTML elements to a "div" tag as shown:
 <code>
 &lt;div id="gameArea"&gt;
