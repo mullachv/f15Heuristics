@@ -5,7 +5,6 @@
 ...
 &lt;/div&gt;
 </code>
-
 3. Do not use applets and embedded objects (as you might have seen these eventually become unusable because of the numerous dependencies on OS, web browser, plug-in security and hot fixes and such)
 4. We recommend that you pick a game for the final project, before next week
 5. Note that these games are for person-to-computer play or person-to-person play. So the game parameters and the game tactics could change (as to what constitutes a move and game timeouts and so on).
