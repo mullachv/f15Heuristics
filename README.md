@@ -12,5 +12,12 @@
 6. It is important that you maintain a score for the winner and the loser, since these would eventually make it into a leaderboard for your game
 7. The leaderboards are maintained within Dr Ecco site and not a part of the game, and there will need to be interfaces (Javascript variables/globals that will need to be made visible to the site)
 8. More details to follow soon
-
+9. Current line up of teams:
+|Team            | Game      |
+|----------------|------------------|
+|Fountain Lion   | No Tipping |
+|Prometheus | Strategic Bullying |
+|Brooklyn | Evasion |
+|DeweiAndMayank | Gravitational Voronoi |
+|NewJersey | prime squares |
 
