@@ -8,7 +8,7 @@
 &lt;/div&gt;
 </code>
 5. Do not use applets and embedded objects (as you might have seen these eventually become unusable because of the numerous dependencies on OS, web browser, plug-in security and hot fixes and such)
-4. We support PHP and Python for any server side inclusions
+4. We support PHP for any server side inclusions
 5. For the browser side, use HTML5 and Javascript
 6. Note that these games are for person-to-computer play. So the game parameters and the game tactics could change (as to what constitutes a move, placing a move, game timeouts and so on) from the weekly games we play.
 7. It is important that you maintain a score for the winner and allow an alphanumeric name for the player, since these would eventually make it into a leaderboard for your game
