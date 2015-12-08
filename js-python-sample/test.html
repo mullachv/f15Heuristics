@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>
+$(document).ready(function() {
+	$("button").click(function() {
+		$.get("http://cims.nyu.edu/drecco/games/f15Bullying/send2srv", function(data, status) {
+			alert("Status: " + status);
+			$(document.body).append(data);
+		})
+	})
+})
+		</script>
+	</head>
+	<body>
+		<h1>Test HTML</h1>
+		<p id="demo">Prometheus</p>
+		<button type="button">Click</button>
+	</body>
+</html> 
