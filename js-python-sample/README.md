@@ -6,3 +6,4 @@ URL | Port
 ----|---------------------
 /drecco/games/f15Bullying/send2srv | linserv2:19234|
 
+Thank you **Prometheus** for the rapid sample
