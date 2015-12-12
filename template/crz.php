@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../../style.css" media="screen" />
     </head>
     <body>
-        <div style="position:absolute; left:0; top:0%; height:5%;width:80%">
+        <div class="post" style="position:absolute; left:0; top:0%; height:5%;width:80%">
 		<h1 class="title">Gravitational Voronoi</h1>
 	</div>
 	<div style="position:absolute; height:15%; top:5%;width:80%">
@@ -43,18 +43,20 @@
                 <div id="message">Player 1 to move</div>
                 <div>
 		    <script>
-			function postScore(ws) {
-			  var wr = "<?php $_SESSION['login'] ?>";
-			  if (wr == "") wr = "guest";
+			function postScore(ws, wr) {
+			  if (!wr)
+				wr = “guest”;
+			  if (wr == "") 
+				wr = "guest";
 			  document.location.href="/drecco/index.php?task=f15Grav&winner="+wr+"&ws="+ws;
 			}
 		    </script>
-                    <button id="score" onClick="postScore('2300')" type="button">Save Score</button>
+                    <button id="score" onClick="postScore('2300', 'vsm')" type="button">Save Score</button>
                 </div>
             </div>
         </div>
 	<script type="text/javascript" src="logic.js"></script>
-    <div style="position:absolute; top:80%; height:10%">
+    <div class="post" style="position:absolute; top:80%; height:10%">
 	<h2 class="title">Last 10 scores</h2>
     <?php
 
